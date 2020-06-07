@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HCI Portfolio Lars Talsma</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+</head>
+<body class="challenge">
+	<header>
+		<a href="index.html"><i class="fas fa-home" id="homeButton"></i></a>
+		<nav id="main-nav">
+			<ul>
+				<li class="challenge">
+					<a href="ar-vr.html">AR & VR</a>
+					<ul>
+						<li>
+							<a href="ar-vr.html#research">Research</a>
+						</li>
+						<li>
+							<a href="ar-vr.html#tinkering">Tinkering</a>
+						</li>
+						<li>
+							<a href="ar-vr.html#design-build">Design and build</a>
+						</li>
+						<li>
+							<a href="ar-vr.html#showcase">Showcase</a>
+						</li>
+						<li>
+							<a href="ar-vr.html#reflect">Reflect</a>
+						</li>
+					</ul>
+				</li>
+				<li class="challenge">
+					<a href="wearables.html">Wearables</a>
+					<ul>
+						<li>
+							<a href="wearables.html#research">Research</a>
+						</li>
+						<li>
+							<a href="wearables.html#tinkering">Tinkering</a>
+						</li>
+						<li>
+							<a href="wearables.html#design-build">Design and build</a>
+						</li>
+						<li>
+							<a href="wearables.html#showcase">Showcase</a>
+						</li>
+						<li>
+							<a href="wearables.html#reflect">Reflect</a>
+						</li>
+					</ul>
+				</li>
+				<li class="challenge">
+					<a href="artificial-creatures.html">Artificial Creatures</a>
+					<ul>
+						<li>
+							<a href="artificial-creatures.html#research">Research</a>
+						</li>
+						<li>
+							<a href="artificial-creatures.html#tinkering">Tinkering</a>
+						</li>
+						<li>
+							<a href="artificial-creatures.html#design-build">Design and build</a>
+						</li>
+						<li>
+							<a href="artificial-creatures.html#showcase">Showcase</a>
+						</li>
+						<li>
+							<a href="artificial-creatures.html#reflect">Reflect</a>
+						</li>
+					</ul>
+				</li>
+				<li class="challenge">
+					<a href="playful-interaction.html">Playful Interaction</a>
+					<ul>
+						<li>
+							<a href="playful-interaction.html#research">Research</a>
+						</li>
+						<li>
+							<a href="playful-interaction.html#tinkering">Tinkering</a>
+						</li>
+						<li>
+							<a href="playful-interaction.html#design-build">Design and build</a>
+						</li>
+						<li>
+							<a href="playful-interaction.html#showcase">Showcase</a>
+						</li>
+						<li>
+							<a href="playful-interaction.html#reflect">Reflect</a>
+						</li>
+					</ul>
+				</li>
+				<li class="workshops">
+					<a href="workshops.html">Workshops</a>
+					<ul>
+						<li>
+							<a href="workshops.html#ar-vr">AR & VR</a>
+						</li>
+						<li>
+							<a href="workshops.html#arduino-ws1">Arduino 1</a>
+						</li>
+						<li>
+							<a href="workshops.html#arduino-ws2">Arduino 2</a>
+						</li>
+						<li>
+							<a href="workshops.html#arduino-ws3">Arduino 3</a>
+						</li>
+						<li>
+							<a href="workshops.html#computer-vision">Computer vision</a>
+						</li>
+					</ul>
+				</li>
+				<li class="guest-lectures">
+					<a href="guest-lectures.html">Guest Lectures</a>
+					<ul>
+						<li>
+							<a href="guest-lectures.html#assignments">Assignments</a>
+						</li>
+						<li>
+							<a href="guest-lectures.html#reflect">Reflect</a>
+						</li>
+					</ul>
+				</li>
+				<li class="gallery">
+					<a href="gallery.html">Gallery</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<article>
+				<h1>Wearables</h1>
+				<p>With this challenge, I took a deep dive into the world of wearables; a world which is expanding rapidly these days. Wearables are nothing new. For example, the first Calculator Watch was designed by Pulsar back in 1975! But with new tech come new products, such as smartwatches that are more and more commonly worn. The future of wearables looks very promising, as new applications keep popping up out of nowhere. I see wearables as additions to the human body. I believe they can make our day to day lives easier, more comfortable and provide us with information about our body. In the context of quantified self, wearables are the solution to self-tracking.</p>
+			</article>
+		</section>
+		<section id="research">
+			<article>
+				<h2>Research</h2>
+				<h4>Smart tattoos as a new way of communicating</h4>
+				<p><img src="images/QRTattoo.jpg" alt="Smart tattoo" align="right">We see tattoos everywhere. Whereas back in the day usually only prisoners and gang members would have tattoos, nowadays it’s not uncommon to have one or even multiple tattoos. Could a tattoo be used as a new way of communicating with one another, and how would that play out in real life?<br />
+				Something that already exists are “<a href="https://www.youtube.com/watch?v=ubVaqWiwGVc" target="_blank">soundwave tattoos</a>”, which can be converted to sound through an app. In this particular case, the tattoo not only looks like a sound wave, but actually consists of something that can be heard.<br />
+				With this in mind, the possibilities are endless. For example, one could create a smart tattoo with NFC function, for which a chip is no longer needed. Or perhaps some kind of altered QR-code tattoo, with which one can pay, somewhat like how the Alipay payment system from China works at the moment.<br />
+				The Smart Tattoo could function as a way of payment, which makes it alot easier for the ‘wearer’, as no bank card or cash needs to be carried. The payment method would literally be something on your person all the time.<br />
+				<br />
+				As far as smart tattoos go right now: the technology is still quite limited. They are experimenting with smart tattoos functioning through Bluetooth. The problem with the tattoos being applied to the skin is that they are only very temporarily currently. Microsoft Research states the following: <i>“New research and testing will also inform the design of smart tattoo kits, which will empower anyone to design and build their own smart tattoo and will open the technology’s use and applications.”</i> (<a href="https://www.microsoft.com/en-us/research/project/smart-tattoos/" target="_blank">source</a>). Thus, the focus is primarily towards self-development and creation of the smart tattoos, rather than going to a tattoo shop.</p>
+				<br />
+				<img src="images/smartLens.jpg" alt="Contact lenses enhanced by technology" align="left">
+				<h4>You wear, eyewear</h4>
+				<p>An application of wearable technology that I found particularly interesting and outright awesome, was the concept of smart contact lenses. Back in 2018, there was a <a href="https://www.sciencedaily.com/releases/2018/02/180222090133.htm" target="_blank">breakthrough</a> in the development of biosensing contact lenses. These contact lenses are capable of detecting glucose levels in patients with diabetes. If this would be introduced as an actual working product, it would mean a pain-free way for diabetics to check their glucose levels!</p><br />
+				<br style="clear: both;"/><br />
+				<h4>Put a ring on it</h4>
+				<p><img src="images/kring.jpg" alt="K-rings with NFC technology" align="right">Wearables are more commonly being used as an on-person wireless payment method. The increasing popularity of contactless payment, usually through NFC chip, has created an entire new purpose for wearables. Dutch bank ABN Amro started supporting and offering wearables for contactless transactions a few years back. Smartwatches from brands such as Garmin are often equipped with NFC, and can therefore be used to complete transactions, without ever needing a debit or credit card. Also, K-rings, waterproof rings made of zirconia ceramic, were developed solely for the purpose of wearable payment method. Under the slogan 'wear your wallet', K-ring offers a variety of NFC equipped payment rings. ABN Amro was the first bank in the Netherlands to support payment through wearables on a larger scale, with more and more banks joining them since. I can't wait to see what we can pay with in 10 years time!</p>
+			</article>
+		</section>
+		<section id="tinkering">
+			<article>
+				<h2>Tinkering</h2>
+				<p>For tinkering in the Wearables challenge, I decided to focus on Arduino and explore its possibilities, to be able to make actual demos. Before I even started tinkering, I got some inspiration through Googling for Arduino wearables. Luckily, the Arduino website has a filter for this, which got me <a href="https://create.arduino.cc/projecthub/projects/tags/wearables" target="_blank">here</a>. This webpage lists all of the user-uploaded Arduino projects tagged with 'Wearable'.</p><br />
+				<p><h4>One ring to rule them all...</h4>The first demo I created was for a smart-ring. This smart-ring can measure body temperature and amount of light. Both the input for body temperature and amount of light are wired to different colored LEDs as output. The smart-ring would be able to change color based on body temperature or amount of light. It would also be possible to hook up all kinds of different input sensors to make the smart-ring even smarter. For example, it would be possible to include a heart rate sensor, an LED display to be able to receive short messages, or GPS in case you lose your precious...<br />
+				<br />
+				Here's the code I used to hook up the temperature and light sensors to the LEDs, and the actual outcome in Arduino.<br />
+				<br style="clear: both;"/>
+				<iframe width="480" height="270" src="https://www.youtube.com/embed/uyMzuPRFjRw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen align="right"></iframe><pre><code>
+int lightValue = 0;
+int tempValue = 0;
+int tempPin = A0;
+int lightPin = A1;
+int greenLedPin = 12;
+int yellowLedPin = 13;
+int redLedPin = 8;
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(tempPin, INPUT);
+  pinMode(lightPin, INPUT);
+  pinMode(greenLedPin, OUTPUT);
+  pinMode(yellowLedPin, OUTPUT);
+  pinMode(redLedPin, OUTPUT);
+}
+
+void loop() {
+  lightValue = analogRead(lightPin);
+  tempValue = analogRead(tempPin);
+
+  if(lightValue <341){
+   digitalWrite(greenLedPin, HIGH);
+   digitalWrite(yellowLedPin, LOW);
+   digitalWrite(redLedPin, LOW);
+   Serial.println(lightValue);
+   delay(100);
+  }
+
+  else if(lightValue >341 && lightValue <682){
+   digitalWrite(greenLedPin, LOW);
+   digitalWrite(yellowLedPin, HIGH);
+   digitalWrite(redLedPin, LOW);
+   Serial.println(lightValue);
+   delay(100);
+  }
+
+  else if(lightValue >682){
+   digitalWrite(greenLedPin, LOW);
+   digitalWrite(yellowLedPin, LOW);
+   digitalWrite(redLedPin, HIGH);
+   Serial.println(lightValue); 
+   delay(100);   
+  }
+
+  else{
+   digitalWrite(greenLedPin, LOW);
+   digitalWrite(yellowLedPin, LOW);
+   digitalWrite(redLedPin, LOW);
+   Serial.println(lightValue);
+   delay(100);
+  }
+}				</code></pre>
+				<br style="clear: both;"/><br />
+				<h4>One and a half</h4>
+				<p>For the second demo, I decided to expand upon Arduino workshop exercise D, the social distance indicator. In this exercise I was tasked to make a social distance indicator, using the Ultrasonic Proximity sensor (UPS). This sensor emits a pulse of ultrasonic sound, which upon reaching an object bounces back to the sensor. This data can then be translated to a unit of measure through a certain calculation involving the speed of sound. In the exercise, different coloured LED lights were to be added to this social distance indicator, actually indicating whether an object was too close or far enough from the sensor.<br />
+				I expanded upon this workshop exercise by adding an output, the LED matrix.<br />
+				<br />
+				The LED matrix is an 8 by 8 field of red LED lights. All 64 LEDs can be activated individually. I connected the LED matrix to work with the UPS in such a way that it alternates between displaying a checkmark and the text 'OK', if any objects are farther than 1.5m away from the sensor. If an object is closer to the sensor than the 1.5m social distance, it'll alternate between displaying a stop sign, an exclamation point and the text '1.5M'. You can see a video of this demo and the corresponding code below.<br />
+				<br style="clear: both;"/>
+				<iframe width="480" height="270" src="https://www.youtube.com/embed/28VDsO7syrc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen align="right"></iframe><pre><code>
+#include "LedControl.h"
+
+const int echoPin = 6;
+const int trigPin = 7;
+LedControl lc = LedControl(12,11,10,1); 
+
+void setup() {
+  pinMode(echoPin, INPUT);
+  pinMode(trigPin, OUTPUT);
+  Serial.begin(9600);
+  lc.shutdown(0,false);
+  lc.setIntensity(0,2);
+  lc.clearDisplay(0);
+}
+
+void loop() {
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(2);
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(5);
+  digitalWrite(trigPin, LOW);
+  long duration = pulseIn(echoPin, HIGH);
+  int cm = duration / 29 / 2;
+  Serial.println(cm);
+  delay(100);
+ 
+  if(cm<150){
+  lc.setRow(0,0,B00111100); 
+  lc.setRow(0,1,B01000010); 
+  lc.setRow(0,2,B10000101);
+  lc.setRow(0,3,B10001001);
+  lc.setRow(0,4,B10010001);
+  lc.setRow(0,5,B10100001);
+  lc.setRow(0,6,B01000010);
+  lc.setRow(0,7,B00111100);
+  delay(1000);
+
+  lc.setRow(0,0,B00011000); 
+  lc.setRow(0,1,B00011000); 
+  lc.setRow(0,2,B00011000);
+  lc.setRow(0,3,B00011000);
+  lc.setRow(0,4,B00011000);
+  lc.setRow(0,5,B00000000);
+  lc.setRow(0,6,B00011000);
+  lc.setRow(0,7,B00011000);
+  delay(1000);
+
+  lc.setRow(0,0,B00000000); 
+  lc.setRow(0,1,B01000111);
+  lc.setRow(0,2,B11000100);
+  lc.setRow(0,3,B01000111);
+  lc.setRow(0,4,B01000001);
+  lc.setRow(0,5,B01010111);
+  lc.setRow(0,6,B00000000);
+  lc.setRow(0,7,B00000000);
+  delay(500);
+
+  lc.setRow(0,0,B00000000); 
+  lc.setRow(0,1,B01000010);
+  lc.setRow(0,2,B01100110);
+  lc.setRow(0,3,B01011010);
+  lc.setRow(0,4,B01000010);
+  lc.setRow(0,5,B01000010);
+  lc.setRow(0,6,B01000010);
+  lc.setRow(0,7,B00000000);
+  delay(1000);
+  }
+
+  if(cm>150){
+  lc.setRow(0,0,B00000000); 
+  lc.setRow(0,1,B00000001); 
+  lc.setRow(0,2,B00000011);
+  lc.setRow(0,3,B00000110);
+  lc.setRow(0,4,B11001100);
+  lc.setRow(0,5,B01111000);
+  lc.setRow(0,6,B00110000);
+  lc.setRow(0,7,B00000000);
+  delay(1000);
+
+  lc.setRow(0,0,B00000000); 
+  lc.setRow(0,1,B11101001); 
+  lc.setRow(0,2,B10101010);
+  lc.setRow(0,3,B10101100);
+  lc.setRow(0,4,B10101100);
+  lc.setRow(0,5,B10101010);
+  lc.setRow(0,6,B11101001);
+  lc.setRow(0,7,B00000000);
+  delay(1000);
+  }
+}				</code></pre>
+				<br style="clear: both;"/><br />
+				<h4>Sound the alarm</h4>
+				<p>For the third demo, I added yet another sensor to the social distance indicator. In demo 2, the indicator used a UPS to calculate distance. Depending on that it will display either a warning or a praise. To also use sound in this indicator, I added a piezo speaker to the mix.<br />
+				<br />
+				A piezo speaker can be used to produce a sound using the 'tone()' attribute in Arduino. In this demo, the speaker produces a beep when the distance from an object to the UPS is less than 1.5m. It does not produce a sound when an object is farther than 1.5m away. This could be expanded to a voice-over saying something like "Caution. Please keep 1.5 meters distance." Check out the video and corresponding code below! (Make sure to turn on your audio for this one, but turn it down!)<br />
+				<br style="clear: both;"/>
+				<iframe width="480" height="270" src="https://www.youtube.com/embed/oYRLfAmCRbk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen align="right"></iframe><pre><code>
+#include "LedControl.h"
+
+const int echoPin = 6;
+const int trigPin = 7;
+const int speakerPin = 8;
+LedControl lc = LedControl(12,11,10,1); 
+
+void setup() {
+ pinMode(echoPin, INPUT);
+ pinMode(trigPin, OUTPUT);
+ pinMode(speakerPin, OUTPUT);
+ Serial.begin(9600);
+ lc.shutdown(0,false);
+ lc.setIntensity(0,2);
+ lc.clearDisplay(0);
+}
+
+void loop() {
+ digitalWrite(trigPin, LOW);
+ delayMicroseconds(2);
+ digitalWrite(trigPin, HIGH);
+ delayMicroseconds(5);
+ digitalWrite(trigPin, LOW);
+ long duration = pulseIn(echoPin, HIGH);
+ int cm = duration / 29 / 2;
+ Serial.println(cm);
+ delay(100);
+
+ if(cm<150){
+  tone(speakerPin, 330, 3500);
+  lc.setRow(0,0,B00111100); 
+  lc.setRow(0,1,B01000010); 
+  lc.setRow(0,2,B10000101);
+  lc.setRow(0,3,B10001001);
+  lc.setRow(0,4,B10010001);
+  lc.setRow(0,5,B10100001);
+  lc.setRow(0,6,B01000010);
+  lc.setRow(0,7,B00111100);
+  delay(1000);
+  
+  lc.setRow(0,0,B00011000); 
+  lc.setRow(0,1,B00011000); 
+  lc.setRow(0,2,B00011000);
+  lc.setRow(0,3,B00011000);
+  lc.setRow(0,4,B00011000);
+  lc.setRow(0,5,B00000000);
+  lc.setRow(0,6,B00011000);
+  lc.setRow(0,7,B00011000);
+  delay(1000);
+  
+  lc.setRow(0,0,B00000000); 
+  lc.setRow(0,1,B01000111);
+  lc.setRow(0,2,B11000100);
+  lc.setRow(0,3,B01000111);
+  lc.setRow(0,4,B01000001);
+  lc.setRow(0,5,B01010111);
+  lc.setRow(0,6,B00000000);
+  lc.setRow(0,7,B00000000);
+  delay(500);
+  
+  lc.setRow(0,0,B00000000); 
+  lc.setRow(0,1,B01000010);
+  lc.setRow(0,2,B01100110);
+  lc.setRow(0,3,B01011010);
+  lc.setRow(0,4,B01000010);
+  lc.setRow(0,5,B01000010);
+  lc.setRow(0,6,B01000010);
+  lc.setRow(0,7,B00000000);
+  delay(1000);
+ }
+
+ if(cm>150){
+  lc.setRow(0,0,B00000000); 
+  lc.setRow(0,1,B00000001); 
+  lc.setRow(0,2,B00000011);
+  lc.setRow(0,3,B00000110);
+  lc.setRow(0,4,B11001100);
+  lc.setRow(0,5,B01111000);
+  lc.setRow(0,6,B00110000);
+  lc.setRow(0,7,B00000000);
+  delay(1000);
+  
+  lc.setRow(0,0,B00000000); 
+  lc.setRow(0,1,B11101001); 
+  lc.setRow(0,2,B10101010);
+  lc.setRow(0,3,B10101100);
+  lc.setRow(0,4,B10101100);
+  lc.setRow(0,5,B10101010);
+  lc.setRow(0,6,B11101001);
+  lc.setRow(0,7,B00000000);
+  delay(1000);
+ }
+}				</code></pre>
+			</article>
+		</section>
+		<section id="design-build">
+			<article>
+				<h2>Design and build</h2>
+				<p>During the tinkering phase, I really enjoyed working with the 8x8 LED matrix. I wanted to explore its possibilities even further, so I chose to work with this output for my final product.<br />
+				<br />
+				<img src="images/indicatorArduino.jpg" alt="The Arduino setup for the prototype" align="right">
+				I started thinking what I wanted to create with the matrix. I soon thought of something that increases both safety and visibility of cyclists: a wearable indicator/bike light for cyclists. The indicator would be able to show whether a cyclist would go right or left, with the push of a button. I started to create the prototype with Arduino, and kept adding more and more different inputs and outputs in the process.<br />
+				<br />
+				I started by connecting the LED matrix. I then added a button as input for the right indicator and created the arrow pattern to display on the matrix in the code. When that all worked out I added the left button and indicator. I continued by implementing the potentiometer to let the user change the speed of the indication arrows. Finally, I added LED lights which are on for as long as the button is pushed. You can see the Arduino setup in the image on the right.<br />
+				<br />
+				You can view the process in the video below. I also included the corresponding code from Arduino. Please see the next section on this page for the showcase video, showing the finalized prototype.</p><br />
+				<br style="clear: both;"/>
+				<iframe width="480" height="270" src="https://www.youtube.com/embed/Sq59tnqRmCA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen align="right"></iframe><pre><code>
+#include "LedControl.h"
+int buttonPinRight = 2;
+int buttonPinLeft = 3;
+int buttonStateRight = 0;
+int buttonStateLeft = 0;
+int potmeterValue = 0;
+int potmeterPin = A0;
+int ledPinLeft = 8;
+int ledPinRight = 7;
+
+LedControl lc = LedControl(12,11,10,1); 
+
+void setup() {
+ lc.shutdown(0,false); 
+ lc.setIntensity(0,2); 
+ lc.clearDisplay(0);
+ pinMode(buttonPinRight, INPUT);
+ pinMode(buttonPinLeft, INPUT);
+ Serial.begin(9600);
+ pinMode(ledPinLeft, OUTPUT);
+ pinMode(ledPinRight, OUTPUT);
+}
+
+void loop(){
+ int potmeterValue = analogRead(A0);
+ Serial.println(potmeterValue);
+ potmeterValue = map(potmeterValue, 0, 1023, 50, 400);
+ 
+ buttonStateRight = digitalRead(buttonPinRight);
+ buttonStateLeft = digitalRead(buttonPinLeft);
+ 
+ if (buttonStateRight == HIGH) {
+ digitalWrite(ledPinRight, HIGH);
+ 
+ lc.setRow(0,0,B11000000); 
+ lc.setRow(0,1,B01100000); 
+ lc.setRow(0,2,B00110000); 
+ lc.setRow(0,3,B00011000);
+ lc.setRow(0,4,B00011000);
+ lc.setRow(0,5,B00110000);
+ lc.setRow(0,6,B01100000);
+ lc.setRow(0,7,B11000000);
+ delay(potmeterValue);
+
+ lc.setRow(0,0,B01100000); 
+ lc.setRow(0,1,B00110000); 
+ lc.setRow(0,2,B00011000); 
+ lc.setRow(0,3,B00001100);
+ lc.setRow(0,4,B00001100);
+ lc.setRow(0,5,B00011000);
+ lc.setRow(0,6,B00110000);
+ lc.setRow(0,7,B01100000);
+ delay(potmeterValue);
+
+ lc.setRow(0,0,B00110000); 
+ lc.setRow(0,1,B00011000); 
+ lc.setRow(0,2,B00001100); 
+ lc.setRow(0,3,B00000110);
+ lc.setRow(0,4,B00000110);
+ lc.setRow(0,5,B00001100);
+ lc.setRow(0,6,B00011000);
+ lc.setRow(0,7,B00110000);
+ delay(potmeterValue);
+
+ lc.setRow(0,0,B00011000); 
+ lc.setRow(0,1,B00001100); 
+ lc.setRow(0,2,B00000110); 
+ lc.setRow(0,3,B00000011);
+ lc.setRow(0,4,B00000011);
+ lc.setRow(0,5,B00000110);
+ lc.setRow(0,6,B00001100);
+ lc.setRow(0,7,B00011000);
+ delay(potmeterValue);
+
+ lc.setRow(0,0,B00001100); 
+ lc.setRow(0,1,B00000110); 
+ lc.setRow(0,2,B00000011); 
+ lc.setRow(0,3,B10000001);
+ lc.setRow(0,4,B10000001);
+ lc.setRow(0,5,B00000011);
+ lc.setRow(0,6,B00000110);
+ lc.setRow(0,7,B00001100);
+ delay(potmeterValue);
+
+ lc.setRow(0,0,B00000110); 
+ lc.setRow(0,1,B00000011); 
+ lc.setRow(0,2,B10000001); 
+ lc.setRow(0,3,B11000000);
+ lc.setRow(0,4,B11000000);
+ lc.setRow(0,5,B10000001);
+ lc.setRow(0,6,B00000011);
+ lc.setRow(0,7,B00000110);
+ delay(potmeterValue);
+
+ lc.setRow(0,0,B00000011); 
+ lc.setRow(0,1,B10000001); 
+ lc.setRow(0,2,B11000000); 
+ lc.setRow(0,3,B01100000);
+ lc.setRow(0,4,B01100000);
+ lc.setRow(0,5,B11000000);
+ lc.setRow(0,6,B10000001);
+ lc.setRow(0,7,B00000011);
+ delay(potmeterValue);
+
+ lc.setRow(0,0,B10000001); 
+ lc.setRow(0,1,B11000000); 
+ lc.setRow(0,2,B01100000); 
+ lc.setRow(0,3,B00110000);
+ lc.setRow(0,4,B00110000);
+ lc.setRow(0,5,B01100000);
+ lc.setRow(0,6,B11000000);
+ lc.setRow(0,7,B10000001);
+ delay(potmeterValue);
+ }
+
+ if (buttonStateLeft == HIGH) {
+ digitalWrite(ledPinLeft, HIGH);
+ lc.setRow(0,0,B00000011); 
+ lc.setRow(0,1,B00000110); 
+ lc.setRow(0,2,B00001100); 
+ lc.setRow(0,3,B00011000);
+ lc.setRow(0,4,B00011000);
+ lc.setRow(0,5,B00001100);
+ lc.setRow(0,6,B00000110);
+ lc.setRow(0,7,B00000011);
+ delay(potmeterValue);
+
+ lc.setRow(0,0,B00000110); 
+ lc.setRow(0,1,B00001100); 
+ lc.setRow(0,2,B00011000); 
+ lc.setRow(0,3,B00110000);
+ lc.setRow(0,4,B00110000);
+ lc.setRow(0,5,B00011000);
+ lc.setRow(0,6,B00001100);
+ lc.setRow(0,7,B00000110);
+ delay(potmeterValue);
+
+ lc.setRow(0,0,B00001100); 
+ lc.setRow(0,1,B00011000); 
+ lc.setRow(0,2,B00110000); 
+ lc.setRow(0,3,B01100000);
+ lc.setRow(0,4,B01100000);
+ lc.setRow(0,5,B00110000);
+ lc.setRow(0,6,B00011000);
+ lc.setRow(0,7,B00001100);
+ delay(potmeterValue);
+
+ lc.setRow(0,0,B00011000); 
+ lc.setRow(0,1,B00110000); 
+ lc.setRow(0,2,B01100000); 
+ lc.setRow(0,3,B11000000);
+ lc.setRow(0,4,B11000000);
+ lc.setRow(0,5,B01100000);
+ lc.setRow(0,6,B00110000);
+ lc.setRow(0,7,B00011000);
+ delay(potmeterValue);
+
+ lc.setRow(0,0,B00110000); 
+ lc.setRow(0,1,B01100000); 
+ lc.setRow(0,2,B11000000); 
+ lc.setRow(0,3,B10000001);
+ lc.setRow(0,4,B10000001);
+ lc.setRow(0,5,B11000000);
+ lc.setRow(0,6,B01100000);
+ lc.setRow(0,7,B00110000);
+ delay(potmeterValue);
+
+ lc.setRow(0,0,B01100000); 
+ lc.setRow(0,1,B11000000); 
+ lc.setRow(0,2,B10000001); 
+ lc.setRow(0,3,B00000011);
+ lc.setRow(0,4,B00000011);
+ lc.setRow(0,5,B10000001);
+ lc.setRow(0,6,B11000000);
+ lc.setRow(0,7,B01100000);
+ delay(potmeterValue);
+
+ lc.setRow(0,0,B11000000); 
+ lc.setRow(0,1,B10000001); 
+ lc.setRow(0,2,B00000011); 
+ lc.setRow(0,3,B00000110);
+ lc.setRow(0,4,B00000110);
+ lc.setRow(0,5,B00000011);
+ lc.setRow(0,6,B10000001);
+ lc.setRow(0,7,B11000000);
+ delay(potmeterValue);
+
+ lc.setRow(0,0,B10000001); 
+ lc.setRow(0,1,B00000011); 
+ lc.setRow(0,2,B00000110); 
+ lc.setRow(0,3,B00001100);
+ lc.setRow(0,4,B00001100);
+ lc.setRow(0,5,B00000110);
+ lc.setRow(0,6,B00000011);
+ lc.setRow(0,7,B10000001);
+ delay(potmeterValue);
+ }
+
+ if (buttonStateRight == LOW && buttonStateLeft == LOW){
+ digitalWrite(ledPinRight, LOW);
+ digitalWrite(ledPinLeft, LOW);
+ lc.setRow(0,0,B11111111);
+ lc.setRow(0,1,B11111111);
+ lc.setRow(0,2,B11000011);
+ lc.setRow(0,3,B11011011);
+ lc.setRow(0,4,B11011011);
+ lc.setRow(0,5,B11000011);
+ lc.setRow(0,6,B11111111);
+ lc.setRow(0,7,B11111111);
+ }
+}				</code></pre>
+			</article>
+		</section>
+		<section id="showcase">
+			<article>
+				<h2>Showcase</h2>
+				<p>Cycling is a very popular mode of transportation in the Netherlands. Some Dutch people even own multiple bikes, just for themselves. In winter, it can get quite dark rather early. Especially then are cyclists hard to spot for motorists. Therefore, cyclists are obliged to have lighting on their bikes. However, cyclists usually have no signal lights available to them. They usually just put their hand out to indicate they're crossing the street or turning in a certain direction. That's where my product comes in: both a cycle light and indicator in one!<br />
+				<br />
+				As a wearable, the indicator can be implemented in a high visibility vest, which would be worn by the cyclist to increase their visibility even further. It could also be implemented as a projector mounted on the back of a bicycle, projecting the matrix output on the cyclist's back. Check out the prototype for the product in the video below!<br />
+				<br /><iframe width="960" height="540" src="https://www.youtube.com/embed/ybFlyVkq69Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen align="center"></iframe></p>
+			</article>
+		</section>
+		<section id="reflect">
+			<article>
+				<h2>Reflect</h2>
+				<h4>Wearables: the topic and its future</h4>
+				<p>I enjoyed the subject, because I think the development and introduction of new types of wearables is interesting and has a promising future. As I mentioned in the research part of this challenge, I am particularly interested in the medical application for wearables. I believe there are far more applications for wearables than are on offer right now. The possibilities of wearables are almost endless and I strongly believe that wearable technology will help us humans become healthier and more conscious about our bodies.</p><br />
+				<h4>My final product</h4>
+				<p>My skills in Arduino are quite limited, and I did the best I could with the knowledge and tools I had at hand. I found it quite difficult to come up with ideas for wearables. I think the reason for that was that I could not visualize something I made with Arduino, with all its cables and somewhat large size, representing an actual functioning wearable. That is also partly why I chose to stick with Arduino. Furthermore, I was not familiar with any other types of wearable development software and/or hardware. I also wanted to show an actual physical prototype as final product, rather than just a bunch of code that would explain the concept but not actually show what the real-life prototype or product might look like. That being said, I am happy with how the prototype turned out. I got it to work exactly how I wanted it to, and can see this being a real thing in the near future.</p><br />
+				<h4>Experience with wearables</h4>
+				<p>Over the years I've owned multiple wearables myself. I bought my first smartwatch three years ago, a TomTom Spark. I've since switched to the Garmin Vívoactive, which I have for about a year now. Also, I tried on various Fitbit fitness trackers before. As for wearables not necessarily being on one's wrist, I have yet to try those out. As someone with glasses, I would very much like to try a pair of AR glasses such as Google Glass one day.</p>
+			</article>
+		</section>
+	</main>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
