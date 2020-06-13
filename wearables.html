@@ -147,12 +147,12 @@
 				With this in mind, the possibilities are endless. For example, one could create a smart tattoo with NFC function, for which a chip is no longer needed. Or perhaps some kind of altered QR-code tattoo, with which one can pay, somewhat like how the Alipay payment system from China works at the moment.<br />
 				The Smart Tattoo could function as a way of payment, which makes it alot easier for the ‘wearer’, as no bank card or cash needs to be carried. The payment method would literally be something on your person all the time.<br />
 				<br />
-				As far as smart tattoos go right now: the technology is still quite limited. They are experimenting with smart tattoos functioning through Bluetooth. The problem with the tattoos being applied to the skin is that they are only very temporarily currently. Microsoft Research states the following: <i>“New research and testing will also inform the design of smart tattoo kits, which will empower anyone to design and build their own smart tattoo and will open the technology’s use and applications.”</i> (<a href="https://www.microsoft.com/en-us/research/project/smart-tattoos/" target="_blank">source</a>). Thus, the focus is primarily towards self-development and creation of the smart tattoos, rather than going to a tattoo shop.</p>
-				<br />
+				As far as smart tattoos go right now: the technology is still quite limited. They are experimenting with smart tattoos functioning through Bluetooth. The problem with the tattoos being applied to the skin is that they are only very temporarily currently. Microsoft Research states the following: <i>“New research and testing will also inform the design of smart tattoo kits, which will empower anyone to design and build their own smart tattoo and will open the technology’s use and applications.”</i> (<a href="https://www.microsoft.com/en-us/research/project/smart-tattoos/" target="_blank">source</a>). Thus, the focus is primarily towards self-development and creation of the smart tattoos, rather than going to a tattoo shop.</p><br />
+				<hr><br style="clear: both;"/>
 				<img src="images/smartLens.jpg" alt="Contact lenses enhanced by technology" align="left">
 				<h4>You wear, eyewear</h4>
-				<p>An application of wearable technology that I found particularly interesting and outright awesome, was the concept of smart contact lenses. Back in 2018, there was a <a href="https://www.sciencedaily.com/releases/2018/02/180222090133.htm" target="_blank">breakthrough</a> in the development of biosensing contact lenses. These contact lenses are capable of detecting glucose levels in patients with diabetes. If this would be introduced as an actual working product, it would mean a pain-free way for diabetics to check their glucose levels!</p><br />
-				<br style="clear: both;"/><br />
+				<p>An application of wearable technology that I found particularly interesting and outright awesome, was the concept of smart contact lenses. Back in 2018, there was a <a href="https://www.sciencedaily.com/releases/2018/02/180222090133.htm" target="_blank">breakthrough</a> in the development of biosensing contact lenses. These contact lenses are capable of detecting glucose levels in patients with diabetes. If this would be introduced as an actual working product, it would mean a pain-free way for diabetics to check their glucose levels!</p><br style="clear: both;"/>
+				<br /><hr><br style="clear: both;"/>
 				<h4>Put a ring on it</h4>
 				<p><img src="images/kring.jpg" alt="K-rings with NFC technology" align="right">Wearables are more commonly being used as an on-person wireless payment method. The increasing popularity of contactless payment, usually through NFC chip, has created an entire new purpose for wearables. Dutch bank ABN Amro started supporting and offering wearables for contactless transactions a few years back. Smartwatches from brands such as Garmin are often equipped with NFC, and can therefore be used to complete transactions, without ever needing a debit or credit card. Also, K-rings, waterproof rings made of zirconia ceramic, were developed solely for the purpose of wearable payment method. Under the slogan 'wear your wallet', K-ring offers a variety of NFC equipped payment rings. ABN Amro was the first bank in the Netherlands to support payment through wearables on a larger scale, with more and more banks joining them since. I can't wait to see what we can pay with in 10 years time!</p>
 			</article>
@@ -161,6 +161,7 @@
 			<article>
 				<h2>Tinkering</h2>
 				<p>For tinkering in the Wearables challenge, I decided to focus on Arduino and explore its possibilities, to be able to make actual demos. Before I even started tinkering, I got some inspiration through Googling for Arduino wearables. Luckily, the Arduino website has a filter for this, which got me <a href="https://create.arduino.cc/projecthub/projects/tags/wearables" target="_blank">here</a>. This webpage lists all of the user-uploaded Arduino projects tagged with 'Wearable'.</p><br />
+				<hr><br style="clear: both;"/>
 				<p><h4>One ring to rule them all...</h4>The first demo I created was for a smart-ring. This smart-ring can measure body temperature and amount of light. Both the input for body temperature and amount of light are wired to different colored LEDs as output. The smart-ring would be able to change color based on body temperature or amount of light. It would also be possible to hook up all kinds of different input sensors to make the smart-ring even smarter. For example, it would be possible to include a heart rate sensor, an LED display to be able to receive short messages, or GPS in case you lose your precious...<br />
 				<br />
 				Here's the code I used to hook up the temperature and light sensors to the LEDs, and the actual outcome in Arduino.<br />
@@ -218,8 +219,8 @@ void loop() {
    Serial.println(lightValue);
    delay(100);
   }
-}				</code></pre>
-				<br style="clear: both;"/><br />
+}				</code></pre></p><br />
+				<hr><br style="clear: both;"/>
 				<h4>One and a half</h4>
 				<p>For the second demo, I decided to expand upon Arduino workshop exercise D, the social distance indicator. In this exercise I was tasked to make a social distance indicator, using the Ultrasonic Proximity sensor (UPS). This sensor emits a pulse of ultrasonic sound, which upon reaching an object bounces back to the sensor. This data can then be translated to a unit of measure through a certain calculation involving the speed of sound. In the exercise, different coloured LED lights were to be added to this social distance indicator, actually indicating whether an object was too close or far enough from the sensor.<br />
 				I expanded upon this workshop exercise by adding an output, the LED matrix.<br />
@@ -316,8 +317,8 @@ void loop() {
   lc.setRow(0,7,B00000000);
   delay(1000);
   }
-}				</code></pre>
-				<br style="clear: both;"/><br />
+}				</code></pre></p><br />
+				<hr><br style="clear: both;"/>
 				<h4>Sound the alarm</h4>
 				<p>For the third demo, I added yet another sensor to the social distance indicator. In demo 2, the indicator used a UPS to calculate distance. Depending on that it will display either a warning or a praise. To also use sound in this indicator, I added a piezo speaker to the mix.<br />
 				<br />
