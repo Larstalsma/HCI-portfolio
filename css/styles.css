@@ -58,7 +58,7 @@ strong.challenge {
 strong.workshops {
   color: #0B6E4F; 
 }
-strong.guest-lectures {
+strong.guest-lecture {
   color: #FA9F42; 
 }
 strong.gallery {
@@ -81,9 +81,9 @@ body.workshops section:nth-child(even) {
   background: #b4f7e2; }
 body.workshops h1, body.workshops h2, body.workshops h3 {
   color: #0B6E4F; }
-body.guest-lectures section:nth-child(even) {
+body.guest-lecture section:nth-child(even) {
   background: #fdd1a5; }
-body.guest-lectures h1, body.guest-lectures h2, body.guest-lectures h3 {
+body.guest-lecture h1, body.guest-lecture h2, body.guest-lecture h3 {
   color: #FA9F42; }
 body.gallery section:nth-child(even) {
   background: #f4c8c7; }
@@ -170,26 +170,17 @@ nav ul {
         background-color: #dce8dc; }
         nav ul li.workshops li:hover a {
           background: #b4c4b4; }
-    nav ul li.guest-lectures {
+    nav ul li.guest-lecture {
       background: #f7f6e8; }
-      nav ul li.guest-lectures:hover {
+      nav ul li.guest-lecture:hover {
         background: #efecc6; }
-      nav ul li.guest-lectures li:not(:last-child) {
+      nav ul li.guest-lecture li:not(:last-child) {
         border-bottom: 1.5px solid #FFFFFF; }
-      nav ul li.guest-lectures li {
+      nav ul li.guest-lecture li {
         background-color: #f7f6e8; }
-        nav ul li.guest-lectures li:hover a {
+        nav ul li.guest-lecture li:hover a {
           background: #efecc6; }
-    nav ul li.gallery {
-      background: #fce8e8; }
-      nav ul li.gallery:hover {
-        background: #efcece; }
-      nav ul li.gallery li:not(:last-child) {
-        border-bottom: 1.5px solid #FFFFFF; }
-      nav ul li.gallery li {
-        background-color: #fce8e8; }
-        nav ul li.gallery li:hover a {
-          background: #efcece; }
+
 nav>ul>li{
   border-right: 1.5px solid #FFFFFF;
 }
